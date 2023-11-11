@@ -13,6 +13,7 @@ then
 		echo "cd joahsoft-commands/" >> ~/.bashrc
 		echo "cp cmmds.sh ~/cmmds.sh" >> ~/.bashrc
 		echo "cd ..; rm -fr joahsoft-commands/; source ~/cmmds.sh;" >> ~/.bashrc
+  		source ~/.bashrc
 	else
 		echo "ok this will probably never change, bye"
 	fi
