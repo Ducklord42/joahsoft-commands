@@ -14,7 +14,7 @@ then
 		echo "cp cmmds.sh ~/.cmmds" >> ~/.bashrc
 		echo "cd ..; rm -fr joahsoft-commands/" >> ~/.bashrc
   		echo "source ~/.cmmds" >> ~/.bashrc
-    		source ~/.bashrc
+    		echo "close this terminal window and create another one for commands to activate"
 	else
 		echo "ok this will probably never change, bye"
 	fi
