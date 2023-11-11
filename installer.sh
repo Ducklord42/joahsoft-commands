@@ -11,7 +11,7 @@ then
 		touch ~/.cmmd
 		echo "git clone https://github.com/Ducklord42/joahsoft-commands.git" >> ~/.bashrc
 		echo "cd joahsoft-commands/" >> ~/.bashrc
-		echo "cp cmmds.sh ~/cmmds.sh" >> ~/.bashrc
+		echo "cp cmmds.sh ~/.cmmds" >> ~/.bashrc
 		echo "cd ..; rm -fr joahsoft-commands/; source ~/cmmds.sh;" >> ~/.bashrc
   		echo "source ~/.cmmds" >> ~/.bashrc
     		source ~/.bashrc
